@@ -1,0 +1,10 @@
+{
+  "name": "Untitled Project",
+  "description": "Start by adding phases or using the Wizard.",
+  "management_type": "waterfall",
+  "project_type": "Software Development",
+  "created_date": "2025-12-16",
+  "sprint_length": 14,
+  "wip_limits": {},
+  "phases": []
+}

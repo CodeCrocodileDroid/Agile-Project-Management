@@ -1,0 +1,206 @@
+{
+  "name": "Software Development Project",
+  "description": "Sequential phases with formal handoffs. - coco",
+  "management_type": "waterfall",
+  "project_type": "Software Development",
+  "created_date": "2025-12-16",
+  "sprint_length": 14,
+  "wip_limits": {},
+  "phases": [
+    {
+      "name": "Requirements",
+      "description": "Gathering needs",
+      "wip_limit": null,
+      "tasks": [
+        {
+          "title": "Stakeholder Interviews",
+          "durationDays": 5,
+          "assignee": "PM",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": [
+            {
+              "title": "Prep",
+              "durationDays": 1,
+              "completed": false
+            },
+            {
+              "title": "Interview",
+              "durationDays": 3,
+              "completed": false
+            },
+            {
+              "title": "Review",
+              "durationDays": 1,
+              "completed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Design",
+      "description": "System architecture",
+      "wip_limit": null,
+      "tasks": [
+        {
+          "title": "UI Mockups",
+          "durationDays": 5,
+          "assignee": "Designer",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": [
+            {
+              "title": "Wireframes",
+              "durationDays": 2,
+              "completed": false
+            },
+            {
+              "title": "Hi-Fi",
+              "durationDays": 3,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "title": "DB Schema",
+          "durationDays": 3,
+          "assignee": "DBA",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "name": "Implementation",
+      "description": "Coding",
+      "wip_limit": null,
+      "tasks": [
+        {
+          "title": "Backend Setup",
+          "durationDays": 5,
+          "assignee": "Backend Team",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        },
+        {
+          "title": "API Development",
+          "durationDays": 10,
+          "assignee": "Backend Team",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        },
+        {
+          "title": "Frontend",
+          "durationDays": 10,
+          "assignee": "Frontend Team",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "description": "Quality assurance",
+      "wip_limit": null,
+      "tasks": [
+        {
+          "title": "Code Reviews",
+          "durationDays": 3,
+          "assignee": "Tech Lead",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        },
+        {
+          "title": "Unit Testing",
+          "durationDays": 5,
+          "assignee": "Dev Team",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        },
+        {
+          "title": "Integration Testing",
+          "durationDays": 5,
+          "assignee": "QA",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "name": "Deployment",
+      "description": "Go live",
+      "wip_limit": null,
+      "tasks": [
+        {
+          "title": "UAT",
+          "durationDays": 5,
+          "assignee": "Stakeholders",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        },
+        {
+          "title": "Production Deploy",
+          "durationDays": 1,
+          "assignee": "DevOps",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        },
+        {
+          "title": "User Training",
+          "durationDays": 2,
+          "assignee": "PM",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "description": "Support",
+      "wip_limit": null,
+      "tasks": [
+        {
+          "title": "Monitoring",
+          "durationDays": 1,
+          "assignee": "DevOps",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        },
+        {
+          "title": "Bug Fixes",
+          "durationDays": 3,
+          "assignee": "Support Team",
+          "completed": false,
+          "priority": "Medium",
+          "status": "Todo",
+          "subtasks": []
+        }
+      ]
+    }
+  ]
+}
